@@ -1,4 +1,4 @@
-Fyyur
+Booking Site: Fyyur
 -----
 
 ### Project Introduction
@@ -6,8 +6,6 @@ Fyyur
 Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.
 
 ### Tech Stack
-
-Our tech stack will include:
 
 * **SQLAlchemy ORM** to be our ORM library of choice
 * **PostgreSQL** as our database of choice
