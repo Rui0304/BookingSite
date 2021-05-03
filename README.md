@@ -17,13 +17,12 @@ Fyyur is a musical venue and artist booking site that facilitates the discovery 
 
   ```sh
   ├── README.md
-  ├── app.py *** the main driver of the app. 
+  ├── app.py *** the main driver of the app and SQLAlchemy models. 
                     "python app.py" to run after installing dependences
   ├── config.py *** Database URLs, CSRF generation, etc
   ├── error.log
   ├── forms.py *** 
-  ├── models.py  *** SQL Alchemy models
-  ├── requirements.txt *** The dependencies we need to install with "pip3 install -r requirements.txt"
+  ├── requirements.txt *** The dependencies we need to install with "pip install -r requirements.txt"
   ├── static
   │   ├── css 
   │   ├── font
@@ -48,8 +47,7 @@ Highlight folders:
 * `templates/pages` -- Defines the pages that are rendered to the site. These templates render views based on data passed into the template’s view, in the controllers defined in `app.py`. These pages successfully represent the data to the user, and are already defined for you.
 * `templates/layouts` --  Defines the layout that a page can be contained in to define footer and header code for a given page.
 * `templates/forms` -- Defines the forms used to create new artists, shows, and venues.
-* `app.py` --  Defines routes that match the user’s URL, and controllers which handle data and renders views to the user. This is the main file you will be working on to connect to and manipulate the database and render views with data to the user, based on the URL.
-* `models.py` --  Defines the data models that set up the database tables.
+* `app.py` --  Defines routes that match the user’s URL, and controllers which handle data and renders views to the user. This is the main file you will be working on to connect to and manipulate the database and render views with data to the user, based on the URL. Also, Defines the data models that set up the database tables.
 * `config.py` --  Stores configuration variables and instructions, separate from the main application code. This is where you will need to connect to the database.
 
 ### Development Setup
